@@ -5,10 +5,10 @@ This Java application connects to a PostgreSQL database containing a single rela
 
 The app itself contains two classes that connect to the database and perform specific CRUD actions:
 - [`StudentActions.java`](StudentsDB/src/main/java/StudentActions.java): Provides the function implementations of the actions/operations requested in the specs
-    - getAllStudents()
-    - addStudent()
-    - updateStudentEmail()
-    - deleteStudent() 
+    - `getAllStudents()`
+    - `addStudent(addStudent(first_name, last_name, email, enrollment_date)`
+    - `updateStudentEmail(student_id, new_email)`
+    - `deleteStudent(student_id)`
 - [`Main.java`](StudentsDB/src/main/java/Main.java): Creates an instance of the `StudentActions` class and tests its various functions
 
 ## Running the application
