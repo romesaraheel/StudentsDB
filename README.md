@@ -45,9 +45,10 @@ Note: The following instructions rely on the IntelliJ IDE and the pgAdmin4 Postg
 **Step 2: Running the application**
 1. Open the application in IntelliJ
 2. Open [`Main.java`](StudentsDB/src/main/java/Main.java) in the IDE
-3. Click _Build Project_ (in the top menu bar)
-4. Once the build is finished, click _Run Main.java_ (in the top menu bar)
-5. You should see the program output/results in the console
+3. Update the values specified on lines 5-7 in this file to connect to your own database
+4. Click _Build Project_ (in the top menu bar)
+5. Once the build is finished, click _Run Main.java_ (in the top menu bar)
+6. You should see the program output/results in the console
 
 ## Demo video
-The demo video can be accessed here.
+The demo video can be accessed [here](https://youtu.be/F1e27WmUbbY).
